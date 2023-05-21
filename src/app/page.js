@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { BsFillMoonStarsFill, BsGithub, BsLinkedin, BsTwitter } from "react-icons/bs";
+import Av from '../../public/pic.png'
 
 export default function Home() {
   return (
@@ -27,22 +28,25 @@ export default function Home() {
               </li>
             </ul>
           </nav>
-          <div>
-          <h2>Nimantha Nadeeraka</h2>
-          <h3>Software Engineer</h3>
-          <p>
+          <div className='text-center p-10'>
+          <h2 className='text-5xl text-teal-500 py-4' >Nimantha Nadeeraka</h2>
+          <h3 className='text-4xl  py-4'>Software Engineer</h3>
+          <p className='text-2xl text-gray-500 text-md'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
             voluptatum sed veritatis eos atque laudantium quaerat asperiores
             officiis, necessitatibus minima suscipit repudiandae deleniti ipsam
             non exercitationem delectus nam voluptatem ratione.
           </p>
 
-          <div>
+          <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
             <BsTwitter/>
             <BsLinkedin/>
             <BsGithub/>
             
           </div>
+        </div>
+        <div className='relative'>
+          <Image src={Av}  className='mx-auto bg-gradient-to-t from-teal-500 rounded-full w-80 h-80 mt-10'/>
         </div>
         </section>
       
