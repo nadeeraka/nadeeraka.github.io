@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { BsFillMoonStarsFill } from "react-icons/bs";
+import { BsFillMoonStarsFill, BsGithub, BsLinkedin, BsTwitter } from "react-icons/bs";
 
 export default function Home() {
   return (
@@ -27,8 +27,7 @@ export default function Home() {
               </li>
             </ul>
           </nav>
-        </section>
-        <div>
+          <div>
           <h2>Nimantha Nadeeraka</h2>
           <h3>Software Engineer</h3>
           <p>
@@ -38,8 +37,15 @@ export default function Home() {
             non exercitationem delectus nam voluptatem ratione.
           </p>
 
-          
+          <div>
+            <BsTwitter/>
+            <BsLinkedin/>
+            <BsGithub/>
+            
+          </div>
         </div>
+        </section>
+      
       </main>
     </>
   );
