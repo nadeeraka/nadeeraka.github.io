@@ -82,11 +82,7 @@ export default function Home() {
               </span>
             </p>
 
-            <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
-              <BsTwitter />
-              <BsLinkedin />
-              <BsGithub />
-            </div>
+           
           </div>
           <div className="relative mx-auto bg-gradient-to-t from-teal-500 rounded-full w-80 h-80 mt-10 overflow-hidden lg:w-96 h-96">
             <Image src={Av} layout="fill" objectFit="cover" />
@@ -112,6 +108,13 @@ export default function Home() {
               simplicity as an elegant, clear, and powerful goal to strive for
               in different aspects of life.
             </p>
+
+            <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 mt-5">
+              <BsTwitter />
+              <BsLinkedin />
+              <BsGithub />
+            </div>
+
           </div>
           {/* 
           
@@ -121,6 +124,7 @@ export default function Home() {
           
           
           */}
+{/* 
           <div className="lg:flx gap-10">
             <div className=" bg-gray-100 shadow-lg shadow-indigo-500/40 ... rounded-xl p-10 py-10 my-10 mx-10 md:mx-20 lg:mx-40">
               <Image src={code} className="mx-auto" hight={100} width={100} />
@@ -172,7 +176,10 @@ export default function Home() {
                 with industry knowledge and expertise.
               </p>
             </div>
-          </div>
+          </div> */}
+
+
+
         </div>
 
         {/* 
@@ -184,7 +191,7 @@ portfolio
 
 
 */}
-
+{/* 
         <div className="">
           <h2 className="text-4xl py-1 text-center">Portfolio</h2>
 
@@ -258,7 +265,10 @@ portfolio
               />
             </div>
           </div>
-        </div>
+        </div> */}
+
+
+
       </main>
     </div>
   );
