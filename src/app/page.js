@@ -25,21 +25,21 @@ import web6 from "../../public/web6.png";
 
 export default function Home() {
 
-  const [darkMode, setdarkMode] = useState(false)
+  const [darkMode, setdarkMode] = useState(true)
   return (
     <div
-     className={darkMode? 'dark':''}
-    // className='bg-black'
+    //  className={darkMode? 'dark':''}
+    className='bg-black'
     
     >
-      <head>
+      <head  className='bg-black'>
         <title className="font-burtons">Nimantha Nadeeraka Portofolio</title>
       </head>
 
-      <main className="bg-white py-20 p-2 md:p-5 lg:p-10">
+      <main  className={darkMode? 'bg-black py-20 p-2 md:p-5 lg:p-10':'bg-white py-20 p-2 md:p-5 lg:p-10'} >
         <div className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
-            <h1 className="text-xl font-burtons md:text-2xl lg:text-4xl">
+            <h1  className={darkMode? 'text-white  text-xl font-burtons md:text-2xl lg:text-4xl':' text-xl font-burtons md:text-2xl lg:text-4xl'} >
               Nimantha Nadeeraka
             </h1>
             <ul className="flex items-center">
