@@ -9,6 +9,12 @@ import Av from "../../public/pic.png";
 import code from "../../public/code.png";
 import consulting from "../../public/consulting.png";
 import design from "../../public/design.png";
+import web1 from "../../public/web1.png";
+import web2 from "../../public/web2.png";
+import web3 from "../../public/web3.png";
+import web4 from "../../public/web4.png";
+import web5 from "../../public/web5.png";
+import web6 from "../../public/web6.png";
 
 export default function Home() {
   return (
@@ -88,7 +94,7 @@ export default function Home() {
           
           */}
 
-          <div className=" bg-gray-100 shadow-lg shadow-indigo-500/40 ... rounded-xl p-10 py-10 my-10 ">
+          <div className=" bg-gray-100 shadow-lg shadow-indigo-500/40 ... rounded-xl p-10 py-10 my-10 mx-10 ">
             <Image src={code} className="mx-auto" hight={100} width={100} />
 
             <h3 className="text-lg font-medium p-5 text-center">
@@ -105,7 +111,7 @@ export default function Home() {
               no matter what programming language you use
             </p>
           </div>
-          <div className=" bg-gray-100 shadow-lg shadow-indigo-500/40 ... rounded-xl p-10 my-10 ">
+          <div className=" bg-gray-100 shadow-lg shadow-indigo-500/40 ... rounded-xl p-10 my-10  mx-10">
             <Image src={design} className="mx-auto" hight={100} width={100} />
             <h3 className="text-lg font-medium p-5 text-center">
               Elegant designs{" "}
@@ -114,13 +120,19 @@ export default function Home() {
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut minus
               a sed adipisci cupiditate molestiae, in corporis facere dicta,
               impedit, excepturi dolores illo voluptatum quaerat repellat rerum?
-              Enim, deserunt tempora.
+              Enim, deserunt tempora. Lorem ipsum dolor sit amet consectetur,
+              adipisicing elit. Ut minus a sed adipisci cupiditate molestiae, in
+              corporis facere dicta, impedit, excepturi dolores illo voluptatum
+              quaerat repellat rerum? Enim, deserunt tempora. Lorem ipsum dolor
+              sit amet consectetur, adipisicing elit. Ut minus a sed adipisci
+              cupiditate molestiae, in corporis facere dicta, impedit, excepturi
+              dolores illo voluptatum quaerat repellat rerum? Enim, deserunt
+              tempora.
             </p>
           </div>
-          <div className="bg-gray-100 shadow-lg shadow-indigo-500/40 ... rounded-xl p-10 my-10">
+          <div className="bg-gray-100 shadow-lg shadow-indigo-500/40 ... rounded-xl p-10 my-10  mx-10">
             <Image
               src={consulting}
-             
               className="mx-auto"
               hight={100}
               width={100}
@@ -130,8 +142,67 @@ export default function Home() {
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut minus
               a sed adipisci cupiditate molestiae, in corporis facere dicta,
               impedit, excepturi dolores illo voluptatum quaerat repellat rerum?
-              Enim, deserunt tempora.
+              Enim, deserunt tempora. Lorem ipsum dolor sit amet consectetur,
+              adipisicing elit. Ut minus a sed adipisci cupiditate molestiae, in
+              corporis facere dicta, impedit, excepturi dolores illo voluptatum
+              quaerat repellat rerum? Enim, deserunt tempora. Lorem ipsum dolor
+              sit amet consectetur, adipisicing elit. Ut minus a sed adipisci
+              cupiditate molestiae, in corporis facere dicta, impedit, excepturi
+              dolores illo voluptatum quaerat repellat rerum? Enim, deserunt
+              tempora. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Ut minus a sed adipisci cupiditate molestiae, in corporis facere
+              dicta, impedit, excepturi dolores illo voluptatum quaerat repellat
+              rerum? Enim, deserunt tempora.
             </p>
+          </div>
+        </div>
+
+        {/* 
+
+
+
+portfolio
+
+
+
+*/}
+
+        <div className="">
+          <h2 className="text-4xl py-1 text-center">Portfolio</h2>
+
+          <p className=" p-5 text-center text-gray-500 leading-8">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            fugit libero labore quos totam laudantium vel culpa doloribus
+            aliquam. Similique enim distinctio dolorem magni suscipit sed
+            officia dolor, iusto veniam. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Quae dolor, doloremque ipsa modi aliquam nam ex
+            praesentium amet a eum dolorem, aut aperiam perferendis officia
+            eius? Error inventore totam nisi.
+          </p>
+          <div className="">
+            <div className="">
+              <Image src={web1} />
+            </div>
+
+            <div className="">
+              <Image src={web2} />
+            </div>
+
+            <div className="">
+              <Image src={web3} />
+            </div>
+
+            <div className="">
+              <Image src={web4} />
+            </div>
+
+            <div className="">
+              <Image src={web5} />
+            </div>
+
+            <div className="">
+              <Image src={web6} />
+            </div>
           </div>
         </div>
       </main>
