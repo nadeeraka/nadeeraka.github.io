@@ -85,7 +85,7 @@ export default function Home() {
            
           </div>
           <div className="relative mx-auto bg-gradient-to-t from-teal-500 rounded-full w-80 h-80 mt-10 overflow-hidden lg:w-96 h-96">
-            <Image src={Av} layout="fill" objectFit="cover" />
+            <Image src={Av} alt='ass' layout="fill" objectFit="cover" />
           </div>
 
           {/* 
